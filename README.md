@@ -26,3 +26,5 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=muhidinm&show_icons=true&locale=en&layout=compact" alt="muhidinm" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=muhidinm&show_icons=true&locale=en" alt="muhidinm" /></p>
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=muhidinm&hide_border=true)](https://git.io/streak-stats)
