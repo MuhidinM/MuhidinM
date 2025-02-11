@@ -3,7 +3,7 @@
 <h3 align="center">Passionate Front-End Alchemist, Transforming Designs into Interactive Magic ✨</h3>
 <img align="right" alt="Muhidin" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif"/>
 
-- 🔭 I’m currently working on **Agro Financing**
+- 🔭 I’m currently working on **Michu Mizan**
 
 - 🌱 I’m currently learning **Google UX Design Professional Certificate**
 
