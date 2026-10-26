@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="ETB 210M+ moved, 4,500+ borrowers, 150K+ AI tool users, 4 years in production">
+<defs>
+  <linearGradient id="g-ink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c2f38"/><stop offset="1" stop-color="#1b1d23"/></linearGradient>
+  <linearGradient id="g-ash" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d3d6de"/><stop offset="1" stop-color="#b3b7c1"/></linearGradient>
+  <linearGradient id="g-glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c7d0ff"/><stop offset="1" stop-color="#8fa2ff"/></linearGradient>
+  <radialGradient id="g-cobalt" cx="0.5" cy="0" r="1.1"><stop offset="0" stop-color="#6a7cff"/><stop offset="0.55" stop-color="#2633d4"/><stop offset="1" stop-color="#141c8f"/></radialGradient>
+  <linearGradient id="g-lime" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bcc755"/><stop offset="1" stop-color="#9aa53a"/></linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.28"/><stop offset="0.35" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="6"/></filter></defs>
+<style>
+  .press{animation:press 6s cubic-bezier(.3,.7,.4,1) infinite}
+  @keyframes press{0%,6%,100%{transform:translateY(0)}2%{transform:translateY(6px)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+
+  <g transform="translate(30 30)">
+    <ellipse cx="135" cy="146" rx="124.2" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="270" height="140" rx="12" fill="#101670"/>
+    <g class="press" style="animation-delay:0.4s">
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#g-cobalt)"/>
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#sheen)"/>
+      <text x="135" y="64.4" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#eef0ff">210M+</text>
+       <text x="135" y="89.4" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#eef0ff" opacity="0.75">ETB through my lending UIs</text>
+    </g>
+  </g>
+  <g transform="translate(320 30)">
+    <ellipse cx="135" cy="146" rx="124.2" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="270" height="140" rx="12" fill="#0b0c10"/>
+    <g class="press" style="animation-delay:0.9s">
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#g-ink)"/>
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#sheen)"/>
+      <text x="135" y="64.4" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#c9cdd9">4,500+</text>
+       <text x="135" y="89.4" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#c9cdd9" opacity="0.75">borrowers, many first-time</text>
+    </g>
+  </g>
+  <g transform="translate(610 30)">
+    <ellipse cx="135" cy="146" rx="124.2" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="270" height="140" rx="12" fill="#4b5ccc" opacity="0.82"/>
+    <g class="press" style="animation-delay:1.4s">
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#g-glass)" opacity="0.82"/>
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#sheen)"/>
+      <text x="135" y="64.4" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#141c8f">150K+</text>
+       <text x="135" y="89.4" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#141c8f" opacity="0.75">people use my AI tools</text>
+    </g>
+  </g>
+  <g transform="translate(900 30)">
+    <ellipse cx="135" cy="146" rx="124.2" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="270" height="140" rx="12" fill="#5c6320"/>
+    <g class="press" style="animation-delay:1.9s">
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#g-lime)"/>
+      <rect x="4" y="2" width="262" height="116" rx="10" fill="url(#sheen)"/>
+      <text x="135" y="64.4" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#1b1e0e">4 yrs</text>
+       <text x="135" y="89.4" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#1b1e0e" opacity="0.75">shipping to production</text>
+    </g>
+  </g>
+</svg>

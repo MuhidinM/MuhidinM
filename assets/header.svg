@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Hello, I'm Muhidin Misbah. Senior software engineer. I ship systems, not just screens.">
+<defs>
+  <linearGradient id="g-ink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c2f38"/><stop offset="1" stop-color="#1b1d23"/></linearGradient>
+  <linearGradient id="g-ash" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d3d6de"/><stop offset="1" stop-color="#b3b7c1"/></linearGradient>
+  <linearGradient id="g-glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c7d0ff"/><stop offset="1" stop-color="#8fa2ff"/></linearGradient>
+  <radialGradient id="g-cobalt" cx="0.5" cy="0" r="1.1"><stop offset="0" stop-color="#6a7cff"/><stop offset="0.55" stop-color="#2633d4"/><stop offset="1" stop-color="#141c8f"/></radialGradient>
+  <linearGradient id="g-lime" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bcc755"/><stop offset="1" stop-color="#9aa53a"/></linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.28"/><stop offset="0.35" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="6"/></filter>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fafafa"/><stop offset="0.55" stop-color="#c7d0ff"/><stop offset="1" stop-color="#7b8cff"/></linearGradient>
+  <radialGradient id="floor" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3a50ff" stop-opacity="0.55"/><stop offset="0.6" stop-color="#1f30ff" stop-opacity="0.12"/><stop offset="1" stop-color="#1f30ff" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" opacity="0.06"/></pattern>
+  <clipPath id="card"><rect width="1200" height="440" rx="24"/></clipPath>
+</defs>
+<style>
+  .press{animation:press 7s cubic-bezier(.3,.7,.4,1) infinite}
+  @keyframes press{0%,6%,100%{transform:translateY(0)}2%{transform:translateY(5px)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  .role{opacity:0;animation:role 9s ease-in-out infinite}
+  @keyframes role{0%{opacity:0;transform:translateY(14px)}4%,30%{opacity:1;transform:translateY(0)}34%,100%{opacity:0;transform:translateY(-10px)}}
+  .caret{animation:blink 1.1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .float{animation:float 6s ease-in-out infinite}
+  @keyframes float{50%{transform:translateY(-6px)}}
+</style>
+<g clip-path="url(#card)">
+  <rect width="1200" height="440" fill="#121212"/>
+  <rect width="1200" height="440" fill="url(#dots)"/>
+  <ellipse cx="900" cy="370" rx="360" ry="120" fill="url(#floor)"/>
+  <ellipse cx="120" cy="-40" rx="380" ry="160" fill="#3a50ff" opacity="0.10" filter="url(#soft)"/>
+
+  <text x="72" y="92" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#9aa53a">~/addis-ababa<tspan fill="#71717a"> $ </tspan><tspan fill="#d4d4d8">whoami</tspan><tspan class="caret" fill="#7b8cff"> ▍</tspan></text>
+  <text x="72" y="158" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="52" font-weight="600" letter-spacing="-1.5" fill="#a1a1aa">Hello, I'm</text>
+  <text class="role" style="animation-delay:0s" x="72" y="236" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="74" font-weight="700" letter-spacing="-2" fill="url(#name)">Muhidin.</text><text class="role" style="animation-delay:3s" x="72" y="236" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="74" font-weight="700" letter-spacing="-2" fill="url(#name)">a builder.</text><text class="role" style="animation-delay:6s" x="72" y="236" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="74" font-weight="700" letter-spacing="-2" fill="url(#name)">full-stack.</text>
+  <text x="74" y="296" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="22" fill="#e4e4e7">I ship systems, <tspan fill="#a9bcff">not just screens.</tspan></text>
+  <text x="74" y="330" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" fill="#a1a1aa">Senior software engineer building fintech for people banks missed —</text>
+  <text x="74" y="354" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" fill="#a1a1aa">from the React UI down to the Kubernetes cluster.</text>
+
+  <g transform="translate(74 384)" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12">
+    <rect width="132" height="28" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="16" cy="14" r="4" fill="#9aa53a"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="28" y="18" fill="#d4d4d8">open to remote</text>
+    <rect x="142" width="160" height="28" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="156" y="18" fill="#d4d4d8">Addis Ababa · UTC+3</text>
+  </g>
+
+  <g class="float"><g transform="translate(700 92) skewY(-4)">
+  <g transform="translate(0 0)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#5c6320"/>
+    <g class="press" style="animation-delay:4.19s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-lime)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#1b1e0e">Esc</text>
+    </g>
+  </g>
+  <g transform="translate(76 0)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#101670"/>
+    <g class="press" style="animation-delay:0.67s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-cobalt)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#eef0ff">TS</text>
+    </g>
+  </g>
+  <g transform="translate(152 0)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#0b0c10"/>
+    <g class="press" style="animation-delay:0.99s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ink)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="32.18" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="600" fill="#c9cdd9">React</text>
+    </g>
+  </g>
+  <g transform="translate(228 0)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#0b0c10"/>
+    <g class="press" style="animation-delay:1.63s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ink)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="32.18" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="600" fill="#c9cdd9">Next</text>
+    </g>
+  </g>
+  <g transform="translate(304 0)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#7d818b"/>
+    <g class="press" style="animation-delay:3.23s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ash)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#1c2352">K8s</text>
+    </g>
+  </g>
+  <g transform="translate(38 76)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#7d818b"/>
+    <g class="press" style="animation-delay:3.87s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ash)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#1c2352">⌘</text>
+    </g>
+  </g>
+  <g transform="translate(114 76)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#0b0c10"/>
+    <g class="press" style="animation-delay:1.95s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ink)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#c9cdd9">API</text>
+    </g>
+  </g>
+  <g transform="translate(190 76)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#4b5ccc" opacity="0.82"/>
+    <g class="press" style="animation-delay:2.27s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-glass)" opacity="0.82"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#141c8f">SQL</text>
+    </g>
+  </g>
+  <g transform="translate(266 76)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#0b0c10"/>
+    <g class="press" style="animation-delay:2.59s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ink)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="32.18" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="600" fill="#c9cdd9">Node</text>
+    </g>
+  </g>
+  <g transform="translate(342 76)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#5c6320"/>
+    <g class="press" style="animation-delay:3.55s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-lime)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#1b1e0e">CI</text>
+    </g>
+  </g>
+  <g transform="translate(19 152)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#0b0c10"/>
+    <g class="press" style="animation-delay:0.35s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ink)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#c9cdd9">Git</text>
+    </g>
+  </g>
+  <g transform="translate(95 152)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#7d818b"/>
+    <g class="press" style="animation-delay:2.91s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-ash)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="32.18" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="600" fill="#1c2352">Nest</text>
+    </g>
+  </g>
+  <g transform="translate(171 152)">
+    <ellipse cx="33" cy="72" rx="30.360000000000003" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="66" height="66" rx="12" fill="#5c6320"/>
+    <g class="press" style="animation-delay:1.31s">
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#g-lime)"/>
+      <rect x="4" y="2" width="58" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="33" y="33.26" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="600" fill="#1b1e0e">λ</text>
+    </g>
+  </g>
+  <g transform="translate(247 152)">
+    <ellipse cx="61.5" cy="72" rx="56.580000000000005" ry="7" fill="#000" opacity="0.55" filter="url(#soft)"/>
+    <rect width="123" height="66" rx="12" fill="#101670"/>
+    <g class="press" style="animation-delay:4.51s">
+      <rect x="4" y="2" width="115" height="53" rx="10" fill="url(#g-cobalt)"/>
+      <rect x="4" y="2" width="115" height="53" rx="10" fill="url(#sheen)"/>
+      <text x="61.5" y="32.18" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="600" fill="#eef0ff">Enter</text>
+    </g>
+  </g>
+  </g></g>
+  <rect width="1200" height="440" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</g>
+</svg>
