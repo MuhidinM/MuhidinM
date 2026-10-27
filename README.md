@@ -15,9 +15,9 @@ Plenty of people here have never had a loan. Some won't take one with interest; 
 
 On the side I build AI products with VK Tech, where the tools I've shipped are used by **150K+ people**.
 
-<p align="center">
+<!-- <p align="center">
   <img width="100%" src="assets/impact.svg" alt="ETB 210M+ moved · 4,500+ borrowers · 150K+ AI tool users · 4 years in production" />
-</p>
+</p> -->
 
 ### 🧪 Right now
 
